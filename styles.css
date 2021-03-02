@@ -7,15 +7,52 @@
 }
 
 body {
-    background-color: #dadada;
+    background-image: linear-gradient(rgb(91, 147, 250), rgb(253, 253, 245));
+    max-width: 960px;
+    margin: auto;
+}
+
+/* header {
+
+    box-shadow: #0000ca;
+} */
+
+main {
+    vertical-align: middle;
+}
+
+.box {
+    margin: auto;
+    max-width: 960px;
+    max-height: 600px;
+    height: 600px;
+    margin: 10px;
+    border: 10px;
+    text-align: center;
+    display: flexbox;
+    margin-top: 50px;
+    padding: 10px;
+    background-image: linear-gradient(45deg,rgb(91, 147, 250), rgb(253, 253, 245));
+    box-shadow: 2px 2px 2px#000000;
+
 }
 
 h1 {
     text-align: center;
     margin-top: 50px;
-    color: #0000b9;
+    color: #002e74;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 2px rgb(253, 242, 242);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #f1ffa0;
+    font-weight: 900;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 p {
@@ -23,28 +60,31 @@ p {
     font-size: 1.2em;
 }
 
-.display {
-    text-align: center;
-    display: flexbox;
-    margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
+#displayJoke {
+        text-align: center;
+        font-weight: 900;
+        margin: 20px;
+        padding: 10px;
 }
 
 .button-container {
     text-align: center;
-    margin-top: 30px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .button {
     background-color: #3333e0;
     color: #ffffff;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 10px 10px;
+    box-shadow: 2px 2px 2px#000000;
     font-size: 20px
 }
 
 .button:hover {
-    background-color: #0000ca;
+    background-color: #fdfcae;
     cursor: pointer;
+    color: #080080;
+    text-shadow: 1px 1px 1px#020202;
 }
