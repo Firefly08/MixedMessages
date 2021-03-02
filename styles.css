@@ -1,9 +1,10 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+}
+
+html {
+        height: 100%;
 }
 
 body {
@@ -12,34 +13,48 @@ body {
     margin: auto;
 }
 
-/* header {
-
-    box-shadow: #0000ca;
-} */
+header {
+    padding: 50px;
+} 
 
 main {
-    vertical-align: middle;
+      position: relative;
 }
 
 .box {
-    margin: auto;
+    margin: 2%;
     max-width: 960px;
-    max-height: 600px;
-    height: 600px;
-    margin: 10px;
+    height: 450px;
     border: 10px;
     text-align: center;
-    display: flexbox;
-    margin-top: 50px;
+    display: block;
     padding: 10px;
     background-image: linear-gradient(45deg,rgb(91, 147, 250), rgb(253, 253, 245));
     box-shadow: 2px 2px 2px#000000;
+    align-items: center;
+}
 
+@media only screen and (max-width: 600px) {
+header {
+    padding: 1px 20px;
+}
+.box {
+    height: 590px;
+    padding: 1px;
+    border: 0;
+}
+h2 {
+    margin: 1px;
+}
+#displayJoke { 
+    margin: 1px;
+    padding: 0;
+    border: 0;
+}
 }
 
 h1 {
     text-align: center;
-    margin-top: 50px;
     color: #002e74;
     font-weight: 900;
     font-size: 3.5em;
@@ -48,7 +63,7 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px;
     color: #f1ffa0;
     font-weight: 900;
     font-size: 3rem;
@@ -57,14 +72,28 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 2em;
+}
+
+footer { 
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width:90%;
+    max-width: 960px;
+}
+
+.display {
+    margin-top: 10px;
 }
 
 #displayJoke {
         text-align: center;
         font-weight: 900;
         margin: 20px;
-        padding: 10px;
+        padding: 20px 50px;
 }
 
 .button-container {
@@ -79,7 +108,12 @@ p {
     padding: 8px;
     border-radius: 10px 10px;
     box-shadow: 2px 2px 2px#000000;
-    font-size: 20px
+    font-size: 1.5em;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
 }
 
 .button:hover {
