@@ -39,11 +39,15 @@ header {
     padding: 1px 20px;
 }
 .box {
-    height: 560px;
+    height: 500px;
     padding: 1px;
     border: 0;
 }
+h1 {
+    font-size: 2.5em;
+    }
 h2 {
+    font-size: 2em;
     margin: 1px;
 }
 #displayJoke { 
