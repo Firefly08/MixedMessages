@@ -39,7 +39,7 @@ header {
     padding: 1px 20px;
 }
 .box {
-    height: 550px;
+    height: 560px;
     padding: 1px;
     border: 0;
 }
@@ -52,7 +52,7 @@ h2 {
     border: 0;
 }
 .button {
-    bottom: 2%;
+    bottom: 0.5%;
 }
 
 h1 {
