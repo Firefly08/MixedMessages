@@ -1,4 +1,4 @@
-# Mixed Messages - CodeCademy Git Project
+# Mixed Messages (Jokes) - CodeCademy Git Project
 ---
 **Project Objectives:**
 * Build a message generator program using JavaScript
