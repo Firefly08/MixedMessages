@@ -47,11 +47,11 @@ h1 {
     font-size: 2.5rem !important;
     }
 h2 {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
     margin: 1px !important;
 }
 p {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
 }
 #displayJoke { 
     margin: 1px;
@@ -59,7 +59,7 @@ p {
     border: 0;
 }
 .button {
-    bottom: 0.5% !important;
+    bottom: 2% !important;
 }
 }
 
