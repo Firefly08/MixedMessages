@@ -39,7 +39,7 @@ header {
     padding: 1px 20px;
 }
 .box {
-    height: 430px !important;
+    height: 400px !important;
     padding: 1px;
     border: 0;
 }
@@ -47,15 +47,15 @@ h1 {
     font-size: 2.5rem !important;
     }
 h2 {
-    font-size: 2rem !important;
+    font-size: 2.2rem !important;
     margin: 1px !important;
 }
 p {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
 }
 #displayJoke { 
     margin: 2px !important;
-    padding: 2px !important;
+    padding: 10px 20px !important;
     border: 0 !important;
 }
 .button {
