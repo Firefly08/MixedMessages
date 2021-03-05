@@ -11,7 +11,10 @@ const jokes = [
     "Did you hear the rumor about butter?<br>Well, I'm not going to spread it!",
     "I like telling Dad jokes.<br>Sometimes he laughs!",
     "To whoever stole my copy of Microsoft Office, I will find you.<br>You have my Word!",
-    "They all laughed when I said I wanted to be a comedian.<br>They're not laughing now!"
+    "They all laughed when I said I wanted to be a comedian.<br>They're not laughing now!",
+    "What did the ocean say to the beach?<br>Nothing, it just waved",
+    "What kind of car does an egg drive?<br>A yolkswagen."
+
 ]
 
 function getJoke() {
